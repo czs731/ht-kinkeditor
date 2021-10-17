@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ht-kind-editor edit-id="editor" :config="config"></ht-kind-editor>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+  },
+  data() {
+    return {
+      config: {
+        uploadJson: 'http://192.168.0.121/service_api/api_v2/wang.php?ac=upload',
+        fileManagerJson: 'http://192.168.0.121/service_api/api_v2/wang.php?ac=image',
+      }
+    }
+  },
 }
 </script>
 

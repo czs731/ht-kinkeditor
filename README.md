@@ -1,24 +1,11 @@
 # ht-kindeditor
-
-## Project setup
-```
-npm install
+```text
+根据Kindeditor二次开发
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 更新
+- 2021-09-28 0.0.1 初始化，只做为测试与开发使用
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 如何使用
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 安装

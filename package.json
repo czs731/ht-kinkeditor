@@ -1,24 +1,27 @@
 {
   "name": "ht-kindeditor",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib-update": "vue-cli-service build --target lib --name ht-editor --dest lib packages/index.js && npm publish"
+    "lib-update": "vue-cli-service build --target lib --name ht-kindeditor --dest lib packages/index.js && npm publish",
+    "lib": "vue-cli-service build --target lib --name ht-kindeditor --dest lib packages/index.js"
   },
-  "main": "lib/ht-editor.umd.min.js",
-  "keyword": "ht-editor wangeditor",
-  "description": "基于wangeditor",
+  "main": "lib/ht-kindeditor.umd.min.js",
+  "keyword": "kindeditor",
+  "description": "kindeditor",
   "author": "czs731",
   "repository": {
     "type": "git",
-    "url": "https://github.com/czs731/ht-editor.git"
+    "url": "https://github.com/czs731/ht-kindeditor.git"
   },
   "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
+    "kindeditor": "^4.1.10",
     "vue": "^2.6.11"
   },
   "devDependencies": {
